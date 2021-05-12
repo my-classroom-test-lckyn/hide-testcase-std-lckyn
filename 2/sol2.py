@@ -1,2 +1,2 @@
 def g(n):
-    return ...
+    return n + n
