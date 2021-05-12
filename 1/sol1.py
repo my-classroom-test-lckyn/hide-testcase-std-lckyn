@@ -1,2 +1,2 @@
 def f(n):
-    return ...
+    return n * n
