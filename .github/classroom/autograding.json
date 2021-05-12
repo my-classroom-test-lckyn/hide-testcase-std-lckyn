@@ -3,11 +3,21 @@
     {
       "name": "hide testcase ",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest ./test/*",
+      "run": "pytest ./test/test_1.py",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 1,
+      "points": 1000
+    },
+    {
+      "name": "hide test2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ./test/test_2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
       "points": 1000
     }
   ]
